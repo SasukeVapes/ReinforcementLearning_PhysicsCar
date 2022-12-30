@@ -18,4 +18,4 @@ Also lidar was used in form of collision rays (Ray Perception sensor 3D) with su
 ![car2](https://user-images.githubusercontent.com/114245364/210118174-3c25cdca-90c7-433d-a239-4ed6eb47cd67.PNG)
 Stacked vectors should be set to 1 in case of static obstacles and 4-6 in case of dynamic obstacles. The latter amount allows for NN to look at multiple states at the same time therefore seeing and predicting moves along with training progress.
 # YouTube Video
-Here's a [video](https://youtu.be/M0hJMj7G018) of model running on inference mode of fully trained model
+Here's a [video](https://youtu.be/M0hJMj7G018) of model running on inference mode with fully trained model!
