@@ -5,9 +5,11 @@ This is first project I've seen that takes on using Reinforcement learning for p
 Car controller is based on wheel collider physics therefore it was tricky to train such car.
 The main goal is for the car to reach certain point on the map while avoiding objects, obstacles and other cars.
 ![Безымянный](https://user-images.githubusercontent.com/114245364/210117518-d5981fa9-86f1-45f7-9542-05027fa2252b.png)
-Model was set to train on static obstacles for 5 millions steps. After succesfully training, it was time to move on to the randomly generated positions of the obstacles which took over 60 million steps to train perfectly
+Model was set to train on static obstacles for 5 millions steps. After succesfully training, it was time to move on to the randomly generated positions of the obstacles which took over 60 million steps to train perfectly   
+
 [INFO] MoveToGoal. Step: 4800000. Time Elapsed: 5777.964 s. Mean Reward: 97.196. Std of Reward: 20.315. Training.
-[INFO] MoveToGoal. Step: 5050000. Time Elapsed: 5837.711 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
+[INFO] MoveToGoal. Step: 5050000. Time Elapsed: 5837.711 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.  
+
 Final goal was to train model with dynamic obstacles (red cars). This process took over 200 million steps.
 ![Image2](https://user-images.githubusercontent.com/114245364/210117744-b2201abc-449c-42ad-89e6-2ac92217c3d7.jpg)
 # Observations
