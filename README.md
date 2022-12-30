@@ -10,18 +10,12 @@ Model was set to train on static obstacles for 5 millions steps. After succesful
 [INFO] MoveToGoal. Step: 5050000. Time Elapsed: 5837.711 s. Mean Reward: 100.000. Std of Reward: 0.000. Training.
 Final goal was to train model with dynamic obstacles (red cars). This process took over 200 million steps.
 ![Image2](https://user-images.githubusercontent.com/114245364/210117744-b2201abc-449c-42ad-89e6-2ac92217c3d7.jpg)
-#Observations
+# Observations
 At each frame Neural Network was getting information about Vector3 coordinates of the car itself and the posotion of the goal area.
 Also lidar was used in form of collision rays (Ray Perception sensor 3D) with such parametres:
 ![car](https://user-images.githubusercontent.com/114245364/210118113-9bec3b65-7081-4c39-91b7-0fb4d7a06772.PNG)
-#Behaviour parameters
+# Behaviour parameters
 ![car2](https://user-images.githubusercontent.com/114245364/210118174-3c25cdca-90c7-433d-a239-4ed6eb47cd67.PNG)
 Stacked vectors should be set to 1 in case of static obstacles and 4-6 in case of dynamic obstacles. The latter amount allows for NN to look at multiple states at the same time therefore seeing and predicting moves along with training progress.
-#Video
-Here's a video of model running on inference mode of fully trained model
-https://youtu.be/M0hJMj7G018
- <iframe width="560" height="315"
-src="https://youtu.be/M0hJMj7G018" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+# YouTube Video
+Here's a [video](https://youtu.be/M0hJMj7G018) of model running on inference mode of fully trained model
